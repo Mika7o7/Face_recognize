@@ -15,7 +15,7 @@ with open("labels.pickle", "rb") as f:
     labels = {v:k for k,v in og_labels.items()}
 
 
-camera = cv2.VideoCapture('images/video2.MOV')
+camera = cv2.VideoCapture('images/video.MOV')
 count = 0
 
 while True:
